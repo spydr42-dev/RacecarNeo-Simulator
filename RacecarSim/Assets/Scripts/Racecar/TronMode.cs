@@ -267,10 +267,10 @@ public class TronMode : MonoBehaviour
         string[] dirs = { "Left", "Right", "Rear" };
         // Aim 45° down — with 90° cone, top edge is horizontal, bottom edge hits ground close
         Vector3[] rotations = {
-    new Vector3(45f, -90f, 0f),
-    new Vector3(45f, 90f, 0f),
-    new Vector3(45f, 180f, 0f)
-};
+            new Vector3(45f, -90f, 0f),
+            new Vector3(45f, 90f, 0f),
+            new Vector3(45f, 180f, 0f)
+        };
 
         for (int i = 0; i < dirs.Length; i++)
         {
